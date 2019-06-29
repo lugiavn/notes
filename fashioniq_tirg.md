@@ -116,7 +116,7 @@ Also change main.py
         path=opt.dataset_path,
         split='train',
         transform=torchvision.transforms.Compose([
-        torchvision.transforms.RandomResizedCrop(224, scale=(0.8, 1.0), ratio=(0.75, 1.3)),
+            torchvision.transforms.RandomResizedCrop(224, scale=(0.8, 1.0), ratio=(0.75, 1.3)),
             torchvision.transforms.RandomHorizontalFlip(),
             torchvision.transforms.ToTensor(),
             torchvision.transforms.Normalize([0.485, 0.456, 0.406],
@@ -144,6 +144,6 @@ python2 main.py --dataset=fashioniq --dataset_path=./fashioniq \
   --num_iters=160000 --model=tirg --loss=batch_based_classification \
   --learning_rate_decay_frequency=50000 --comment=fashioniq_tirg
 ```
-On an average GPU, takes couple of hours to a day to see some good performance.
-
 Train+test progress is saved in ./runs/, use tensorboard to view the logs
+
+On an average GPU, takes couple of hours to a day to see some good performance.
