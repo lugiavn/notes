@@ -144,5 +144,4 @@ python2 main.py --dataset=fashioniq --dataset_path=./fashioniq \
   --num_iters=160000 --model=tirg --loss=batch_based_classification \
   --learning_rate_decay_frequency=50000 --comment=fashioniq_tirg
 ```
-
-  
+train+test progress is saved in ./runs/, use tensorboard to view the logs
