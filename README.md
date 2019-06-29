@@ -1,1 +1,3 @@
-# notes
+# Notes
+
+http://nam.ai
