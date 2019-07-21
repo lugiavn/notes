@@ -108,7 +108,7 @@ class FashionIQ(BaseDataset):
     return img
 ```
 
-Also change main.py
+Also change main.py, around line 120
 
 ```python
   elif opt.dataset == 'fashioniq':
