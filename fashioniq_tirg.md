@@ -144,7 +144,7 @@ python2 main.py --dataset=fashioniq --dataset_path=./fashioniq \
   --num_iters=160000 --model=tirg --loss=batch_based_classification \
   --learning_rate_decay_frequency=50000 --comment=fashioniq_tirg
 ```
-Train+test progress is saved in ./runs/, use tensorboard to view the logs
+Train+test progress and model are saved in ./runs/, use tensorboard to view the logs
 
 On an average GPU, takes couple of hours to a day to see some good performance.
 ```
